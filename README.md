@@ -1,56 +1,37 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# My-Portfolio
 
-# Project Name
+> Portfolio  local storage.
 
-> Description the project.
+![setup m-version skeleton](./photos/shots/screenshot1.png)
+![portfolio mobile version](./photos/shots/screenshot2.png)
+![portfolio contact-form](./photos/shots/form-contact.png)
+![portfolio Desktop-version](./photos/Screenshotd.png)
+![portfolio mobile-menu](./photos/shots/mobile-menu.png)
+![portfolio window-popUp](./photos/shots/m-pop-up.png)
+
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- html
+- css
+- javascript
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Click here to view web](https://kayonga99.github.io/My-Portfolio/)
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Kayonga Chiteta**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Kayonga99](https://github.com/Kayonga99)
+- Twitter: [@KayongaChiteta3](https://twitter.com/KayongaChiteta3?t=gfILCjmltzGRZOx6FZ8-nQ&s=08)
+- LinkedIn: [Kkayonga Chiteta](https://www.linkedin.com/in/kayonga-chiteta-776949227)
 
 ## 🤝 Contributing
 

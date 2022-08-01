@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">my logo</a>
+    <nav class="nav"><img id='pop' src="./photos/Union.png" alt="menu button"></nav>
+    <ul class="menu-up nav-list">
+        <li class="close">&times;</li>
+        <li> <a href="#portifolio">Portifolio</a></li>
+        <li> <a href="#about">About</a></li>
+        <li> <a href="#contact">Contact</a></li>
+      </ul>
+  </header>
+  <main class="main-section" id="portifoilo">
+    <section class="intro intro-b">
+      <h1>I'm Kayonga Glad to see you!</h1>
+      <p class="prg text">
+        I’m a software developer! I can help you build a product ,
+        feature or website Look through some of my work and experience!
+        If you like what you see and have a project you need coded, don’t
+        hestiate to contact me.
+      </p>
+      <h4 class="connect connect-text"> <a href="#">LET'S CONNECT</a></h4>
+      <ul class="ul-list-icons">
+        <li><a href="https://twitter.com/KayongaChiteta3?t=gfILCjmltzGRZOx6FZ8-nQ&s=08)"><img
+              src="./photos/icons/twitter-icon.png" alt="twitter-icom"></a></li>
+        <li><a href="https://www.linkedin.com/in/kayonga-chiteta-776949227"><img src="./photos/icons/Linkedin-icon.png"
+              alt="linkedin-icon"></a></li>
+        <li><a href="#"><img src="./photos/icons/meadia.png" alt="m-icon"></a></li>
+        <li><a href="https://github.com/Kayonga99"><img src="./photos/icons/github.png" alt="github-icon"></a></li>
+        <li><a href="#"></a><img src="./photos/icons/icon-2.png" alt="icon"></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <ul id="cards" class="cards card-dsk">
+
+      </ul>
+    </section>
+    <section class="card-list-5" id="about">
+      <div class="about-div">
+        <h3 class="about-me">
+          About Myself
+        </h3>
+        <p class="prg">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience!
+          If you like what you see and have a project you need coded,
+          don’t hestiate to contact me.
+        </p>
+        <h4 class="connect"><a href="#connect">LET'S CONNECT</a></h4>
+        <ul class="ul-list-icons-2">
+          <li><a href="https://twitter.com/KayongaChiteta3?t=gfILCjmltzGRZOx6FZ8-nQ&s=08)"><img
+                src="./photos/icons/twitter-icon.png" alt="twitter-icom"></a></li>
+          <li><a href="https://www.linkedin.com/in/kayonga-chiteta-776949227"><img
+                src="./photos/icons/Linkedin-icon.png" alt="linkedin-icon"></a></li>
+          <li><a href="#"><img src="./photos/icons/meadia.png" alt="m-icon"></a></li>
+          <li><a href="https://github.com/Kayonga99"><img src="./photos/icons/github.png" alt="github-icon"></a></li>
+          <li><a href="#"></a><img src="./photos/icons/icon-2.png" alt="icon"></li>
+        </ul>
+        <button class="btn-2" type="button">Get my resume</button>
+      </div>
+      <div>
+      <div class="lang-1">
+        <h6 class="lang">Languages</h6> <a href="#"><img src="./photos/icons/d-arrow.png" alt="arrow icon"></a>
+      </div>
+      <div class="cardlist-5-tech">
+        <ul class="tech-list-lang">
+          <li class="tech">
+            <img class="tech-lang-2" src="./photos/Ellipsejs.png" alt="js photo">
+            <p class="tech-lang">JavaScript</p>
+          </li>
+          <li class="tech">
+            <img class="tech-lang-2" src="./photos/Ellipse.png" alt="html photo">
+            <p class="tech-lang">HTML</p>
+          </li>
+          <li class="tech">
+            <img class="tech-lang-2" src="./photos/css.png" alt="css photo">
+            <p class="tech-lang">CSS</p>
+          </li>
+        </ul>
+      </div>
+      <div class="lang-38">
+        <h6 class="lang">Frameworks</h6> <a href="#"><img src="./photos/icons/arrow.png" alt="arrow icon"></a>
+      </div>
+      <hr class="hr">
+      <div class="lang-3">
+        <h5 class="frame-lang">Skills</h5> <a href="#"><img src="./photos/icons/arrow.png" alt="arrow icon"></a>
+      </div>
+      <hr class="hr">
+      </div>
+    </section>
+    <footer class="form-section" id="contact" >
+      <div class="form-div">
+      <h6 class="contact-me">Contact me</h6>
+      <p class="form-prg">If you have an application you are interested in developing,
+        a feature that you need built or a project that needs coding.
+        I’d love to help with it
+      </p>
+      <div class="form-text">
+        <form id="form" action="https://formspree.io/f/xpzbqzab" method="post" name="contact-form">
+          <input class="input i-data" type="text" name="fullName" id="name" placeholder="Full name" maxlength="30" required />
+          <input class="input i-data" type="email" name="email" id="email" placeholder="Email address" required />
+          <textarea class="msg i-data" name="comment" id="message" cols="30" rows="10" placeholder="Write your message here"
+            maxlength="500" required></textarea>
+            <div class="form-mssg" id="form-div"></div>
+          <div>
+            <button class="about-btn" type="submit">Get In Touch</button>
+          </div>
+        </form>
+      </div>
+      <hr class="hr-4" />
+    </div>
+    </footer>
+  </main>
+
+  <div id="project" class="m-popUp">
+
+  </div>
+  <script src="main.js"></script>
+  
+</body>
+</html>
