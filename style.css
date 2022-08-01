@@ -51,6 +51,10 @@ h1 {
   width: 16px;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 .logo {
   padding-left: 24px;
   width: 99px;
@@ -861,6 +865,17 @@ img.nature-animated {
     height: 916px;
     background-position: 111px 55px;
     background-color: #fff;
+
+    /* -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    overflow-x: hidden;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color .25s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+
   }
 
   h1 {
